@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Tracker</title>
+  </head>
+  <body>
+    <div class="add-token">
+      <button class="add-button">
+        <img src="add-icon.png" id="add-btn" />
+        <div class="tooltip">add to watchlist</div>
+      </button>
+      <input
+        id="input-el"
+        placeholder="Add pair by symbol, name, contract or token"
+      />
+      <div class="clear" id="clear-el">clear</div>
+    </div>
+    <div class="list">
+      <ul id="ul-el">
+        <li>
+          <p></p>
+        </li>
+      </ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
